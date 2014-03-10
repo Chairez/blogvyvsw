@@ -26,12 +26,5 @@ before_script:
 deploy:
   provider: openshift
   user: "bird_chairez@hotmail.com"
-  password: "sadbuttrue12" # can be encrypted
+  password: "12345678" # can be encrypted
   domain: "blogvyvs"
-
-
-deploy:
-  provider: cloudcontrol
-  email: "bird_chairez@hotmail.com"
-  password: "12345678"
-  deployment: "blogvyvsw/master"
