@@ -16,7 +16,7 @@
       <td><%= post.texto %></td>
       <td><%= link_to 'Mostrar', :action => :show, :id => post.id %></td>
       <td><%= link_to 'Editar', :action => :edit, :id => post.id %></td>
-      <td><%= link_to 'Eliminar', {:action => :destroy, :id => post.id}, :method => :delete, :data => { :confirm => "¿Eliminar artículo?"} %></td>
+      <td><%= link_to 'Eliminar', {:action => :destroy, :id => post.id}, :method => :delete %></td>
     </tr>
   <% end %>
 </table>

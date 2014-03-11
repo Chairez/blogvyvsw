@@ -34,4 +34,4 @@ deploy:
   provider: cloudcontrol
   email: "bird_chairez@hotmail.com"
   password: "12345678"
-  deployment: "blogvyvs/blog"
+  deployment: "blogvyvsw/master"

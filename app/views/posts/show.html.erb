@@ -23,7 +23,7 @@
     <%= comment.body %>
   </p>
    <p>
-      <%= link_to 'Eliminar Comentario', [comment.post, comment],:method => :delete, :data => { :confirm => '¿Estás seguro?' } %>
+      <%= link_to 'Eliminar Comentario', [comment.post, comment],:method => :delete %>
   </p>
 <% end %>
 
